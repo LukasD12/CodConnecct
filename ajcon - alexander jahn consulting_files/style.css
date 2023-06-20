@@ -1,0 +1,292 @@
+/************************************************************************************
+RESET
+*************************************************************************************/
+html, body, address, blockquote, div, dl, form, h1, h2, h3, h4, h5, h6, ol, p, pre, table, ul,
+dd, dt, li, tbody, td, tfoot, th, thead, tr, button, del, ins, map, object,
+a, abbr, acronym, b, bdo, big, br, cite, code, dfn, em, i, img, kbd, q, samp, small, span,
+strong, sub, sup, tt, var, legend, fieldset {
+	margin: 0;
+	padding: 0;
+}
+
+img, fieldset {
+	border: 0;
+}
+
+/* set image max width to 100% */
+
+img {
+	max-width: 100%;
+	height: auto;
+	width: auto\9; /* ie8 */
+}
+img.profilbild {
+	width: 180px;
+}
+img.pdf {
+	width: 18px;
+	float: left;
+}
+span.profil {
+		float: left;
+	margin: 0 12px 12px 0;
+}
+/* set html5 elements to block */
+article, aside, details, figcaption, figure, footer, header, hgroup, menu, nav, subnav, section { 
+    display: block;
+}
+
+/************************************************************************************
+GENERAL STYLING
+*************************************************************************************/
+html {
+	-webkit-text-size-adjust: none;
+} 
+body {
+	font-family: 'Lato', Arial, Helvetica, sans-serif;
+	font-weight: 400;
+	font-size: 1em;
+	line-height: 1.3em;
+	color: #000;
+	height: 100%;
+	background-color: #daac0d;
+}
+a {
+	color: #daac0d;
+	text-decoration: none;
+	outline: none;
+}
+h1, h2, h3, h4, h5, h6 {
+	line-height: 1.3em;
+	margin: 0 0 0.8em 0;
+	font-weight: 700;
+	color: #000;
+		letter-spacing: 0.02em;
+}
+h1 {
+	font-size: 2em;
+}
+h2 {
+	font-size: 1.5em;
+}
+h3 {
+	font-size: 1.5em;
+}
+h4 {
+	font-size: 1.3em;
+}
+h5 {
+	font-size: 1.2em;
+}
+h6 {
+	font-size: 1.1em;
+}
+p {
+	margin: 0 0 1em 0;
+	padding: 0;
+	font-size: 1em;
+}
+ul, ol {
+	margin: 1em 0 1em 24px;
+	padding: 0;
+	line-height: 1.5em;
+}
+li {
+	margin: 0 0 .5em 0;
+	padding: 0;
+}
+hr {
+	border: none;
+	border-top: 1px dashed #233444;
+	color: #FFFFFF;
+	background-color: #FFFFFF;
+	height: 1px;
+	margin: 0 0 1em 0;
+	display: block;
+	clear: both;
+}
+/************************************************************************************
+CLEARFIX
+*************************************************************************************/
+.clearfix:after { visibility: hidden; display: block; font-size: 0; content: " "; clear: both; height: 0; }
+.clearfix { display: inline-block; }
+.clearfix { display: block; zoom: 1; }
+/************************************************************************************
+STRUCTURE
+*************************************************************************************/
+#pagewrap {
+	width: 100%;
+	margin: 0 auto;	
+	background-color: #233444;
+}
+
+#headerwrap {
+	max-width: 100%;
+	background: url('../images/header-bg.png') repeat-x #fff;
+	margin: 0 auto;
+}
+header {
+	max-width: 1020px;
+	width: 100%;
+	margin: 0 auto;
+    clear: both;
+    display: block;
+    float: none;
+    padding: 40px 0;
+}
+header .logo img {
+	max-width: 265px;
+	width: 82%;
+	height: auto;
+	padding: 0 0 0 4%;
+	margin: 0;
+	float: left;
+} 
+header .lang {
+	width: 10%;
+	height: auto;
+	padding: 0;
+	margin: 0 4% 0 0;
+	float: right;
+	text-align: right;
+} 
+/************************************************************************************
+Startteaser
+*************************************************************************************/
+#outerstartteaserwrap {
+	width: 100%;
+	background: #233444;
+}
+#innerstartteaserwrap {
+	max-width: 1020px;
+	width: 100%;
+	margin: 0 auto;
+}
+.teaser {
+	width: 92%;
+	float: left;
+	margin: 40px 4%;
+	padding: 0;
+}
+.teaser img {
+	width: 100%;
+}
+/************************************************************************************
+Content
+*************************************************************************************/
+#outerstartcontentwrap {
+	width: 100%;
+	background: #fff;
+}
+#innerstartcontentwrap {
+	max-width: 1020px;
+	width: 100%;
+	margin: 0 auto;
+}
+.content {
+	width: 92%;
+	float: left;
+	margin: 40px 4%;
+	padding: 0;
+}
+
+/************************************************************************************
+FOOTER
+*************************************************************************************/
+#footerwrap {
+	max-width: 100%;
+	margin: 0 auto;
+}
+#innerfooter {
+	max-width: 1020px;
+	width: 100%;
+	margin: 0 auto;
+    clear: both;
+    display: block;
+    float: none;
+    padding: 0;
+}
+footer {
+	width: 94%;
+    clear: both;
+    display: block;
+    float: none;
+    margin: 0 auto;
+    padding: 22px 4% 22px;
+    color: #fff;
+    font-size: 1em;
+}
+footer a {
+	color: #fff;
+}
+.kontakt {
+	float: left;
+	display: block;
+	width: 100%;
+	margin-bottom: 20px;
+}
+span.konblock {
+	display: block;
+	float: left;
+	padding-right: 14px;
+}
+.impressum {
+	float: left;
+	display: block;
+	width: 100%;
+	text-align: right;
+}
+/************************************************************************************
+Mailform
+*************************************************************************************/
+.csc-mailform
+{ 
+    width: 100%;
+    padding: 0 0 24px 0;
+}
+div.csc-mailform ol
+{ 
+    line-height: 22px;
+    padding: 0;
+}
+div.csc-mailform ol li
+{ 
+    line-height: 22px;
+    padding: 0 1em 1em 0;
+}
+.csc-mailform .csc-form-element-textline input, .csc-mailform .csc-form-element-textarea textarea
+{
+    background: #fff;
+    border: 1px solid #ACACAC;
+    font: 14px Arial,Helvetica,Verdana,sans-serif;
+}  
+.csc-mailform .csc-form-element-submit input[type="submit"]
+{ 
+    margin:0px;
+    background: #82b311;
+    border: none;
+    color: #ffffff;
+    padding: 2px;
+    cursor: pointer;
+    height: 22px;
+}
+/************************************************************************************
+YouTube
+*************************************************************************************/
+.video-container {
+    position: relative;
+    padding-bottom: 56.25%;
+    padding-top: 30px; height: 0; overflow: hidden;
+    margin: 0 0 1em 0;
+}
+.video-container iframe,
+.video-container object,
+.video-container embed {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+}
+
+
